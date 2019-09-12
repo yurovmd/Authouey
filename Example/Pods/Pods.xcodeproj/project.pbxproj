@@ -8,13 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		0400B0404C57B0FE6BB14EFAD1DC0187 /* Pods-Authouey_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70701AB7EF64DFCD2F58EB3AC77C4C97 /* Pods-Authouey_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EC5FA923F0D058595D3D5EDA51CD15F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6020B3FFDC4DB0167F2BACAED4C1A23D /* ReplaceMe.swift */; };
 		890F3DB6B21F7525AAF99A8B96B84A55 /* Pods-Authouey_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A5F075D75BA1BAC9064360878FD74E /* Pods-Authouey_Example-dummy.m */; };
 		A1C47DDF9D058A43C302FBC7BA7CDE91 /* Authouey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A1DB4E13533187C1E539CFFD5C8306 /* Authouey-dummy.m */; };
 		BF6C942CC4CAB0CBC84ED2DC19194523 /* Authouey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 845F80AE54000EF494B15E43A879DD50 /* Authouey-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA1F3D575B1283AC871DD3627F667AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D367C539D3FFDFEA32B79796BE40CDA3 /* Pods-Authouey_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7217DC6EBBCCD2DC17406CEBB8E98CA /* Pods-Authouey_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAB6E0FDCC5D5A8DC09A89C5DF0A1D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F87C551E232A64B4003FAEF8 /* AuthenticationScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54F1232A64B4003FAEF8 /* AuthenticationScreenViewController.swift */; };
+		F87C551F232A64B4003FAEF8 /* KeychainManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54F3232A64B4003FAEF8 /* KeychainManagerService.swift */; };
+		F87C5520232A64B4003FAEF8 /* KeychainManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54F4232A64B4003FAEF8 /* KeychainManagerProtocol.swift */; };
+		F87C5521232A64B4003FAEF8 /* KeychainManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54F5232A64B4003FAEF8 /* KeychainManagerError.swift */; };
+		F87C5522232A64B4003FAEF8 /* LocalAuthScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54F7232A64B4003FAEF8 /* LocalAuthScreenType.swift */; };
+		F87C5523232A64B4003FAEF8 /* LocalAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54F8232A64B4003FAEF8 /* LocalAuthViewModel.swift */; };
+		F87C5524232A64B4003FAEF8 /* LocalAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54F9232A64B4003FAEF8 /* LocalAuthViewController.swift */; };
+		F87C5525232A64B4003FAEF8 /* LocalAuth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87C54FA232A64B4003FAEF8 /* LocalAuth.storyboard */; };
+		F87C5526232A64B4003FAEF8 /* LogoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54FB232A64B4003FAEF8 /* LogoutDelegate.swift */; };
+		F87C5527232A64B4003FAEF8 /* BaseScreenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54FD232A64B4003FAEF8 /* BaseScreenService.swift */; };
+		F87C5528232A64B4003FAEF8 /* ServicesAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54FE232A64B4003FAEF8 /* ServicesAssembler.swift */; };
+		F87C5529232A64B4003FAEF8 /* ScreenDataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C54FF232A64B4003FAEF8 /* ScreenDataProviderProtocol.swift */; };
+		F87C552A232A64B4003FAEF8 /* BaseScreenServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5500232A64B4003FAEF8 /* BaseScreenServiceError.swift */; };
+		F87C552B232A64B4003FAEF8 /* ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5501232A64B4003FAEF8 /* ScreenType.swift */; };
+		F87C552C232A64B4003FAEF8 /* AuthorizationScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5502232A64B4003FAEF8 /* AuthorizationScreenViewModel.swift */; };
+		F87C552D232A64B4003FAEF8 /* AuthorizationScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87C5503232A64B4003FAEF8 /* AuthorizationScreen.storyboard */; };
+		F87C552E232A64B4003FAEF8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5506232A64B4003FAEF8 /* NetworkManager.swift */; };
+		F87C552F232A64B4003FAEF8 /* NetworkManagerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5507232A64B4003FAEF8 /* NetworkManagerProvider.swift */; };
+		F87C5530232A64B4003FAEF8 /* NetworkManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5508232A64B4003FAEF8 /* NetworkManagerDelegate.swift */; };
+		F87C5531232A64B4003FAEF8 /* AuthenticationEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C550A232A64B4003FAEF8 /* AuthenticationEndpoint.swift */; };
+		F87C5532232A64B4003FAEF8 /* NetworkEndpointAbstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C550B232A64B4003FAEF8 /* NetworkEndpointAbstraction.swift */; };
+		F87C5533232A64B4003FAEF8 /* StorageLayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C550D232A64B4003FAEF8 /* StorageLayerError.swift */; };
+		F87C5534232A64B4003FAEF8 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C550E232A64B4003FAEF8 /* StorageProvider.swift */; };
+		F87C5535232A64B4003FAEF8 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C550F232A64B4003FAEF8 /* StorageService.swift */; };
+		F87C5536232A64B4003FAEF8 /* AuthenticationResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5511232A64B4003FAEF8 /* AuthenticationResponseModel.swift */; };
+		F87C5537232A64B4003FAEF8 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5512232A64B4003FAEF8 /* AuthenticationService.swift */; };
+		F87C5538232A64B4003FAEF8 /* AuthenticationServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5513232A64B4003FAEF8 /* AuthenticationServiceProvider.swift */; };
+		F87C5539232A64B4003FAEF8 /* ParametersType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5515232A64B4003FAEF8 /* ParametersType.swift */; };
+		F87C553A232A64B4003FAEF8 /* ParametersPassApproach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5516232A64B4003FAEF8 /* ParametersPassApproach.swift */; };
+		F87C553B232A64B4003FAEF8 /* NetworkEnvironmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5517232A64B4003FAEF8 /* NetworkEnvironmentType.swift */; };
+		F87C553C232A64B4003FAEF8 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5518232A64B4003FAEF8 /* HTTPMethod.swift */; };
+		F87C553D232A64B4003FAEF8 /* NetworkResponseErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5519232A64B4003FAEF8 /* NetworkResponseErrors.swift */; };
+		F87C553E232A64B4003FAEF8 /* NetworkLayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C551A232A64B4003FAEF8 /* NetworkLayerError.swift */; };
+		F87C553F232A64B4003FAEF8 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C551C232A64B4003FAEF8 /* NetworkRouter.swift */; };
+		F87C5540232A64B4003FAEF8 /* NetworkRouterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C551D232A64B4003FAEF8 /* NetworkRouterProvider.swift */; };
+		F87C5543232A6B03003FAEF8 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5542232A6B03003FAEF8 /* KeychainManager.swift */; };
+		F87C5545232A6B1B003FAEF8 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5544232A6B1B003FAEF8 /* KeychainItemAccessibility.swift */; };
+		F87C5548232A6B7B003FAEF8 /* ScreenSizeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5547232A6B7B003FAEF8 /* ScreenSizeProvider.swift */; };
+		F87C554D232A7024003FAEF8 /* AuthoueyConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C554C232A7024003FAEF8 /* AuthoueyConfigurator.swift */; };
+		F87C5550232A7140003FAEF8 /* CredentialsUISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C554F232A7140003FAEF8 /* CredentialsUISettings.swift */; };
+		F87C5552232A71E6003FAEF8 /* LocalAuthUISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C5551232A71E6003FAEF8 /* LocalAuthUISettings.swift */; };
 		FCCD66F83B3D1EC70733D3AF6E15D181 /* Pods-Authouey_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5567C8CE1362CB6CEDA2717FE0A02B /* Pods-Authouey_Tests-dummy.m */; };
 		FD7068CA4A6A55B7D52BB7F69F9BFD9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -40,34 +80,74 @@
 		1AE024B33527FE1F49CFC3290338B9CF /* Pods-Authouey_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Authouey_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D5567C8CE1362CB6CEDA2717FE0A02B /* Pods-Authouey_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Authouey_Tests-dummy.m"; sourceTree = "<group>"; };
-		45521C1AE348082F3459248DD4197AEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4A76CB0C572C9B761FBF7368CE3B4B62 /* Pods_Authouey_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Authouey_Example.framework; path = "Pods-Authouey_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45521C1AE348082F3459248DD4197AEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4A76CB0C572C9B761FBF7368CE3B4B62 /* Pods_Authouey_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authouey_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF56ACEADBD21041BBCAED3320A1583 /* Pods-Authouey_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Authouey_Example.modulemap"; sourceTree = "<group>"; };
-		51A24B2A957A83BA1D1DCBBEFF598771 /* Pods_Authouey_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Authouey_Tests.framework; path = "Pods-Authouey_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6020B3FFDC4DB0167F2BACAED4C1A23D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Authouey/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		638D5E14C7BB0B37637417F09328BEC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		51A24B2A957A83BA1D1DCBBEFF598771 /* Pods_Authouey_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authouey_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		638D5E14C7BB0B37637417F09328BEC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		70701AB7EF64DFCD2F58EB3AC77C4C97 /* Pods-Authouey_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Authouey_Tests-umbrella.h"; sourceTree = "<group>"; };
 		778B8A34805072AB5BFBD6252F202DDE /* Pods-Authouey_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Authouey_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		77A8143C9283F1CF9B6505759488039F /* Pods-Authouey_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Authouey_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		78C543ABCD1167BC7AF0C8347CACF959 /* Pods-Authouey_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Authouey_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7EDF610C84D81F25D0E6A463824DA874 /* Pods-Authouey_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Authouey_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		845F80AE54000EF494B15E43A879DD50 /* Authouey-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Authouey-umbrella.h"; sourceTree = "<group>"; };
-		8467FA7D1B9FF2AAC09BF1FFCECCDC2F /* Authouey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Authouey.framework; path = Authouey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8467FA7D1B9FF2AAC09BF1FFCECCDC2F /* Authouey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Authouey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA383B581DC462FB5B7BCB560C5BEF4 /* Authouey-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Authouey-prefix.pch"; sourceTree = "<group>"; };
 		902A7B7805D5187CD1FCEC880A1FDE27 /* Pods-Authouey_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Authouey_Example-Info.plist"; sourceTree = "<group>"; };
 		954ECC7B3D65D54AF0EF6FE76C60F4C6 /* Pods-Authouey_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Authouey_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B741A9F57EF7154B59A7BE253715149 /* Pods-Authouey_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Authouey_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8A5F075D75BA1BAC9064360878FD74E /* Pods-Authouey_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Authouey_Example-dummy.m"; sourceTree = "<group>"; };
 		ACC279852856BA90F56502A49CD9E153 /* Authouey-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Authouey-Info.plist"; sourceTree = "<group>"; };
 		C2E1911FC0BE3AEF30414B3B0C147FC4 /* Authouey.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Authouey.modulemap; sourceTree = "<group>"; };
 		C37F8E021B6D2B1286970A3C626E77A1 /* Authouey.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Authouey.xcconfig; sourceTree = "<group>"; };
 		D9417DD45DE288601E4BBB52B313EF84 /* Pods-Authouey_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Authouey_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7217DC6EBBCCD2DC17406CEBB8E98CA /* Pods-Authouey_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Authouey_Example-umbrella.h"; sourceTree = "<group>"; };
-		E8C20A65A8D4CA645FE431BA884662C1 /* Authouey.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Authouey.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8C20A65A8D4CA645FE431BA884662C1 /* Authouey.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Authouey.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA74A4EBED6770D4E2F5A8A7A2419A9B /* Pods-Authouey_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Authouey_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F11C79E6B99777EE71EF22F2E42D19C8 /* Pods-Authouey_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Authouey_Tests.modulemap"; sourceTree = "<group>"; };
 		F4696C6B5E3FA871B98D3AB17AED7640 /* Pods-Authouey_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Authouey_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F87C54F1232A64B4003FAEF8 /* AuthenticationScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationScreenViewController.swift; sourceTree = "<group>"; };
+		F87C54F3232A64B4003FAEF8 /* KeychainManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManagerService.swift; sourceTree = "<group>"; };
+		F87C54F4232A64B4003FAEF8 /* KeychainManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManagerProtocol.swift; sourceTree = "<group>"; };
+		F87C54F5232A64B4003FAEF8 /* KeychainManagerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManagerError.swift; sourceTree = "<group>"; };
+		F87C54F7232A64B4003FAEF8 /* LocalAuthScreenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAuthScreenType.swift; sourceTree = "<group>"; };
+		F87C54F8232A64B4003FAEF8 /* LocalAuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAuthViewModel.swift; sourceTree = "<group>"; };
+		F87C54F9232A64B4003FAEF8 /* LocalAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAuthViewController.swift; sourceTree = "<group>"; };
+		F87C54FA232A64B4003FAEF8 /* LocalAuth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LocalAuth.storyboard; sourceTree = "<group>"; };
+		F87C54FB232A64B4003FAEF8 /* LogoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutDelegate.swift; sourceTree = "<group>"; };
+		F87C54FD232A64B4003FAEF8 /* BaseScreenService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScreenService.swift; sourceTree = "<group>"; };
+		F87C54FE232A64B4003FAEF8 /* ServicesAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesAssembler.swift; sourceTree = "<group>"; };
+		F87C54FF232A64B4003FAEF8 /* ScreenDataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenDataProviderProtocol.swift; sourceTree = "<group>"; };
+		F87C5500232A64B4003FAEF8 /* BaseScreenServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScreenServiceError.swift; sourceTree = "<group>"; };
+		F87C5501232A64B4003FAEF8 /* ScreenType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenType.swift; sourceTree = "<group>"; };
+		F87C5502232A64B4003FAEF8 /* AuthorizationScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationScreenViewModel.swift; sourceTree = "<group>"; };
+		F87C5503232A64B4003FAEF8 /* AuthorizationScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AuthorizationScreen.storyboard; sourceTree = "<group>"; };
+		F87C5506232A64B4003FAEF8 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F87C5507232A64B4003FAEF8 /* NetworkManagerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProvider.swift; sourceTree = "<group>"; };
+		F87C5508232A64B4003FAEF8 /* NetworkManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerDelegate.swift; sourceTree = "<group>"; };
+		F87C550A232A64B4003FAEF8 /* AuthenticationEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationEndpoint.swift; sourceTree = "<group>"; };
+		F87C550B232A64B4003FAEF8 /* NetworkEndpointAbstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEndpointAbstraction.swift; sourceTree = "<group>"; };
+		F87C550D232A64B4003FAEF8 /* StorageLayerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageLayerError.swift; sourceTree = "<group>"; };
+		F87C550E232A64B4003FAEF8 /* StorageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
+		F87C550F232A64B4003FAEF8 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		F87C5511232A64B4003FAEF8 /* AuthenticationResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationResponseModel.swift; sourceTree = "<group>"; };
+		F87C5512232A64B4003FAEF8 /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		F87C5513232A64B4003FAEF8 /* AuthenticationServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationServiceProvider.swift; sourceTree = "<group>"; };
+		F87C5515232A64B4003FAEF8 /* ParametersType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersType.swift; sourceTree = "<group>"; };
+		F87C5516232A64B4003FAEF8 /* ParametersPassApproach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersPassApproach.swift; sourceTree = "<group>"; };
+		F87C5517232A64B4003FAEF8 /* NetworkEnvironmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEnvironmentType.swift; sourceTree = "<group>"; };
+		F87C5518232A64B4003FAEF8 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F87C5519232A64B4003FAEF8 /* NetworkResponseErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponseErrors.swift; sourceTree = "<group>"; };
+		F87C551A232A64B4003FAEF8 /* NetworkLayerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayerError.swift; sourceTree = "<group>"; };
+		F87C551C232A64B4003FAEF8 /* NetworkRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		F87C551D232A64B4003FAEF8 /* NetworkRouterProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRouterProvider.swift; sourceTree = "<group>"; };
+		F87C5542232A6B03003FAEF8 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		F87C5544232A6B1B003FAEF8 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		F87C5547232A6B7B003FAEF8 /* ScreenSizeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSizeProvider.swift; sourceTree = "<group>"; };
+		F87C554C232A7024003FAEF8 /* AuthoueyConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthoueyConfigurator.swift; sourceTree = "<group>"; };
+		F87C554F232A7140003FAEF8 /* CredentialsUISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsUISettings.swift; sourceTree = "<group>"; };
+		F87C5551232A71E6003FAEF8 /* LocalAuthUISettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthUISettings.swift; sourceTree = "<group>"; };
 		F8A1DB4E13533187C1E539CFFD5C8306 /* Authouey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Authouey-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +199,7 @@
 		437E8C57D2BD016BD87BBA25F1364FC9 /* Authouey */ = {
 			isa = PBXGroup;
 			children = (
-				6020B3FFDC4DB0167F2BACAED4C1A23D /* ReplaceMe.swift */,
+				F87C54EF232A6460003FAEF8 /* Classes */,
 				6E251AE6DD84C3080A31E668030D3408 /* Pod */,
 				EFB871D01F70D06E5ACDE14E96A2E026 /* Support Files */,
 			);
@@ -221,6 +301,166 @@
 			path = "Example/Pods/Target Support Files/Authouey";
 			sourceTree = "<group>";
 		};
+		F87C54EF232A6460003FAEF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F87C554E232A711B003FAEF8 /* Configurator */,
+				F87C5546232A6B6D003FAEF8 /* Utility */,
+				F87C54F0232A64B4003FAEF8 /* Authentication */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F87C54F0232A64B4003FAEF8 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F87C54F1232A64B4003FAEF8 /* AuthenticationScreenViewController.swift */,
+				F87C54F2232A64B4003FAEF8 /* KeychainManager */,
+				F87C54F6232A64B4003FAEF8 /* CreateLocalAuth */,
+				F87C54FC232A64B4003FAEF8 /* ServicesAssembler */,
+				F87C5502232A64B4003FAEF8 /* AuthorizationScreenViewModel.swift */,
+				F87C5503232A64B4003FAEF8 /* AuthorizationScreen.storyboard */,
+				F87C5504232A64B4003FAEF8 /* NetworkLayer */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F87C54F2232A64B4003FAEF8 /* KeychainManager */ = {
+			isa = PBXGroup;
+			children = (
+				F87C5541232A6AEE003FAEF8 /* SwiftKeychainWrapper */,
+				F87C54F3232A64B4003FAEF8 /* KeychainManagerService.swift */,
+				F87C54F4232A64B4003FAEF8 /* KeychainManagerProtocol.swift */,
+				F87C54F5232A64B4003FAEF8 /* KeychainManagerError.swift */,
+			);
+			path = KeychainManager;
+			sourceTree = "<group>";
+		};
+		F87C54F6232A64B4003FAEF8 /* CreateLocalAuth */ = {
+			isa = PBXGroup;
+			children = (
+				F87C54F7232A64B4003FAEF8 /* LocalAuthScreenType.swift */,
+				F87C54F8232A64B4003FAEF8 /* LocalAuthViewModel.swift */,
+				F87C54F9232A64B4003FAEF8 /* LocalAuthViewController.swift */,
+				F87C54FA232A64B4003FAEF8 /* LocalAuth.storyboard */,
+				F87C54FB232A64B4003FAEF8 /* LogoutDelegate.swift */,
+			);
+			path = CreateLocalAuth;
+			sourceTree = "<group>";
+		};
+		F87C54FC232A64B4003FAEF8 /* ServicesAssembler */ = {
+			isa = PBXGroup;
+			children = (
+				F87C54FD232A64B4003FAEF8 /* BaseScreenService.swift */,
+				F87C54FE232A64B4003FAEF8 /* ServicesAssembler.swift */,
+				F87C54FF232A64B4003FAEF8 /* ScreenDataProviderProtocol.swift */,
+				F87C5500232A64B4003FAEF8 /* BaseScreenServiceError.swift */,
+				F87C5501232A64B4003FAEF8 /* ScreenType.swift */,
+			);
+			path = ServicesAssembler;
+			sourceTree = "<group>";
+		};
+		F87C5504232A64B4003FAEF8 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F87C5505232A64B4003FAEF8 /* NetworkManager */,
+				F87C5509232A64B4003FAEF8 /* Endpoints */,
+				F87C550C232A64B4003FAEF8 /* StorageLayer */,
+				F87C5510232A64B4003FAEF8 /* Authentication */,
+				F87C5514232A64B4003FAEF8 /* Helpers */,
+				F87C551B232A64B4003FAEF8 /* Router */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		F87C5505232A64B4003FAEF8 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F87C5506232A64B4003FAEF8 /* NetworkManager.swift */,
+				F87C5507232A64B4003FAEF8 /* NetworkManagerProvider.swift */,
+				F87C5508232A64B4003FAEF8 /* NetworkManagerDelegate.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		F87C5509232A64B4003FAEF8 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				F87C550A232A64B4003FAEF8 /* AuthenticationEndpoint.swift */,
+				F87C550B232A64B4003FAEF8 /* NetworkEndpointAbstraction.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		F87C550C232A64B4003FAEF8 /* StorageLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F87C550D232A64B4003FAEF8 /* StorageLayerError.swift */,
+				F87C550E232A64B4003FAEF8 /* StorageProvider.swift */,
+				F87C550F232A64B4003FAEF8 /* StorageService.swift */,
+			);
+			path = StorageLayer;
+			sourceTree = "<group>";
+		};
+		F87C5510232A64B4003FAEF8 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F87C5511232A64B4003FAEF8 /* AuthenticationResponseModel.swift */,
+				F87C5512232A64B4003FAEF8 /* AuthenticationService.swift */,
+				F87C5513232A64B4003FAEF8 /* AuthenticationServiceProvider.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F87C5514232A64B4003FAEF8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F87C5515232A64B4003FAEF8 /* ParametersType.swift */,
+				F87C5516232A64B4003FAEF8 /* ParametersPassApproach.swift */,
+				F87C5517232A64B4003FAEF8 /* NetworkEnvironmentType.swift */,
+				F87C5518232A64B4003FAEF8 /* HTTPMethod.swift */,
+				F87C5519232A64B4003FAEF8 /* NetworkResponseErrors.swift */,
+				F87C551A232A64B4003FAEF8 /* NetworkLayerError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F87C551B232A64B4003FAEF8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F87C551C232A64B4003FAEF8 /* NetworkRouter.swift */,
+				F87C551D232A64B4003FAEF8 /* NetworkRouterProvider.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F87C5541232A6AEE003FAEF8 /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F87C5542232A6B03003FAEF8 /* KeychainManager.swift */,
+				F87C5544232A6B1B003FAEF8 /* KeychainItemAccessibility.swift */,
+			);
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		F87C5546232A6B6D003FAEF8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F87C5547232A6B7B003FAEF8 /* ScreenSizeProvider.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F87C554E232A711B003FAEF8 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				F87C554C232A7024003FAEF8 /* AuthoueyConfigurator.swift */,
+				F87C554F232A7140003FAEF8 /* CredentialsUISettings.swift */,
+				F87C5551232A71E6003FAEF8 /* LocalAuthUISettings.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -315,6 +555,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					A06569CE88984F50E00AEFD86DA86CD6 = {
+						LastSwiftMigration = 1100;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,6 +585,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87C552D232A64B4003FAEF8 /* AuthorizationScreen.storyboard in Resources */,
+				F87C5525232A64B4003FAEF8 /* LocalAuth.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +611,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87C5532232A64B4003FAEF8 /* NetworkEndpointAbstraction.swift in Sources */,
+				F87C5535232A64B4003FAEF8 /* StorageService.swift in Sources */,
+				F87C551E232A64B4003FAEF8 /* AuthenticationScreenViewController.swift in Sources */,
+				F87C553E232A64B4003FAEF8 /* NetworkLayerError.swift in Sources */,
+				F87C5520232A64B4003FAEF8 /* KeychainManagerProtocol.swift in Sources */,
+				F87C5545232A6B1B003FAEF8 /* KeychainItemAccessibility.swift in Sources */,
+				F87C551F232A64B4003FAEF8 /* KeychainManagerService.swift in Sources */,
+				F87C552A232A64B4003FAEF8 /* BaseScreenServiceError.swift in Sources */,
+				F87C552E232A64B4003FAEF8 /* NetworkManager.swift in Sources */,
+				F87C5522232A64B4003FAEF8 /* LocalAuthScreenType.swift in Sources */,
+				F87C5543232A6B03003FAEF8 /* KeychainManager.swift in Sources */,
+				F87C553C232A64B4003FAEF8 /* HTTPMethod.swift in Sources */,
+				F87C5529232A64B4003FAEF8 /* ScreenDataProviderProtocol.swift in Sources */,
+				F87C5524232A64B4003FAEF8 /* LocalAuthViewController.swift in Sources */,
+				F87C5552232A71E6003FAEF8 /* LocalAuthUISettings.swift in Sources */,
+				F87C552F232A64B4003FAEF8 /* NetworkManagerProvider.swift in Sources */,
+				F87C553D232A64B4003FAEF8 /* NetworkResponseErrors.swift in Sources */,
+				F87C5526232A64B4003FAEF8 /* LogoutDelegate.swift in Sources */,
+				F87C5548232A6B7B003FAEF8 /* ScreenSizeProvider.swift in Sources */,
+				F87C553A232A64B4003FAEF8 /* ParametersPassApproach.swift in Sources */,
+				F87C5523232A64B4003FAEF8 /* LocalAuthViewModel.swift in Sources */,
+				F87C5534232A64B4003FAEF8 /* StorageProvider.swift in Sources */,
+				F87C5539232A64B4003FAEF8 /* ParametersType.swift in Sources */,
+				F87C554D232A7024003FAEF8 /* AuthoueyConfigurator.swift in Sources */,
+				F87C5521232A64B4003FAEF8 /* KeychainManagerError.swift in Sources */,
+				F87C5527232A64B4003FAEF8 /* BaseScreenService.swift in Sources */,
+				F87C5528232A64B4003FAEF8 /* ServicesAssembler.swift in Sources */,
 				A1C47DDF9D058A43C302FBC7BA7CDE91 /* Authouey-dummy.m in Sources */,
-				4EC5FA923F0D058595D3D5EDA51CD15F /* ReplaceMe.swift in Sources */,
+				F87C553F232A64B4003FAEF8 /* NetworkRouter.swift in Sources */,
+				F87C552C232A64B4003FAEF8 /* AuthorizationScreenViewModel.swift in Sources */,
+				F87C5533232A64B4003FAEF8 /* StorageLayerError.swift in Sources */,
+				F87C5540232A64B4003FAEF8 /* NetworkRouterProvider.swift in Sources */,
+				F87C553B232A64B4003FAEF8 /* NetworkEnvironmentType.swift in Sources */,
+				F87C5536232A64B4003FAEF8 /* AuthenticationResponseModel.swift in Sources */,
+				F87C5531232A64B4003FAEF8 /* AuthenticationEndpoint.swift in Sources */,
+				F87C552B232A64B4003FAEF8 /* ScreenType.swift in Sources */,
+				F87C5550232A7140003FAEF8 /* CredentialsUISettings.swift in Sources */,
+				F87C5530232A64B4003FAEF8 /* NetworkManagerDelegate.swift in Sources */,
+				F87C5538232A64B4003FAEF8 /* AuthenticationServiceProvider.swift in Sources */,
+				F87C5537232A64B4003FAEF8 /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +792,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C37F8E021B6D2B1286970A3C626E77A1 /* Authouey.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -519,7 +805,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Authouey/Authouey-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Authouey/Authouey-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Authouey/Authouey.modulemap";
 				PRODUCT_MODULE_NAME = Authouey;
@@ -588,8 +874,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -697,6 +982,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C37F8E021B6D2B1286970A3C626E77A1 /* Authouey.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -709,7 +995,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Authouey/Authouey-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Authouey/Authouey-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Authouey/Authouey.modulemap";
 				PRODUCT_MODULE_NAME = Authouey;
@@ -717,6 +1003,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
