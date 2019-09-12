@@ -54,11 +54,11 @@ final class AuthenticationScreenViewController: UIViewController {
     super.viewWillAppear(animated)
     NotificationCenter.default.addObserver(self,
                                            selector: #selector(keyboardWasShown),
-                                           name: NSNotification.Name.UIKeyboardDidShow,
+                                           name: UIResponder.keyboardDidShowNotification,
                                            object: nil)
     NotificationCenter.default.addObserver(self,
                                            selector: #selector(keyboardWillBeHidden),
-                                           name: NSNotification.Name.UIKeyboardWillHide,
+                                           name: UIResponder.keyboardWillHideNotification,
                                            object: nil)
   }
   override func viewWillDisappear(_ animated: Bool) {
@@ -171,7 +171,7 @@ extension AuthenticationScreenViewController {
   private func setupActivityView() {
     activityView.hidesWhenStopped = true
     activityView.color = .white
-    activityView.activityIndicatorViewStyle = .whiteLarge
+    activityView.style = .whiteLarge
     activityView.isHidden = true
     activityView.translatesAutoresizingMaskIntoConstraints = false
     loginButton.addSubview(activityView)

@@ -12,6 +12,8 @@ final class AuthoueyConfigurator {
 
 extension AuthoueyConfigurator {
 
+  
+
 }
 
 // MARK: - Setting UI Appearance for Local Authentication Screen
