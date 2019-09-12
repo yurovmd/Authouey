@@ -1,0 +1,16 @@
+PODS:
+  - Authouey (0.1.0)
+
+DEPENDENCIES:
+  - Authouey (from `../`)
+
+EXTERNAL SOURCES:
+  Authouey:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Authouey: bfecdc2077bf8a69759187bf53af29f9b90091f8
+
+PODFILE CHECKSUM: 11a92cda4328d945d9393563c8a18e4f37a39087
+
+COCOAPODS: 1.7.5

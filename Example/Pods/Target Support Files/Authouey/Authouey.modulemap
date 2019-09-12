@@ -1,0 +1,6 @@
+framework module Authouey {
+  umbrella header "Authouey-umbrella.h"
+
+  export *
+  module * { export * }
+}

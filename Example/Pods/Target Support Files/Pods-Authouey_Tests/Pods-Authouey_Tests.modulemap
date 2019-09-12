@@ -1,0 +1,6 @@
+framework module Pods_Authouey_Tests {
+  umbrella header "Pods-Authouey_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
