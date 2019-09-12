@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Authouey_Example' do
+  pod 'Authouey', :path => '../'
+
+  target 'Authouey_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
