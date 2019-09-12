@@ -22,7 +22,7 @@ pod 'Authouey'
 
 ## Author
 
-yurovmd, v.maksim.yurov@reddit.com
+Maxim Yurov, yurrrov@gmail.com
 
 ## License
 
