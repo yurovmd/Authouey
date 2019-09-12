@@ -31,7 +31,7 @@ Simple solution for Authentication for your iOS App.
   s.ios.deployment_target = '11.0'
   s.swift_versions = '4.2'
 
-  s.source_files = 'Authouey/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'Authouey' => ['Authouey/Assets/*.png']

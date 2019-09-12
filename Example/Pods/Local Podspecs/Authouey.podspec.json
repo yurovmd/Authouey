@@ -1,22 +1,25 @@
 {
   "name": "Authouey",
   "version": "0.1.0",
-  "summary": "A short description of Authouey.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Simple solution for Authentication for your iOS App",
+  "description": "Simple solution for Authentication for your iOS App.",
   "homepage": "https://github.com/yurovmd/Authouey",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yurovmd": "v.maksim.yurov@reddit.com"
+    "yurovmd": "yurrrov@gmail.com"
   },
   "source": {
     "git": "https://github.com/yurovmd/Authouey.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/no1profit",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "Authouey/Classes/**/*"
+  "swift_versions": "4.2",
+  "source_files": "Classes/**/*",
+  "swift_version": "4.2"
 }
